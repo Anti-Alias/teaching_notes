@@ -9,7 +9,7 @@ Stores text.
 ```javascript
 let a = '123';
 let b = "abc";  // Double quotes also work. No difference. Single is preferred by most.
-let c = a + b;  // + symbol will "concatenate" these to "123abc". So, it will switch them together. 
+let c = a + b;  // + symbol will "concatenate" these to "123abc". So, it will stitch them together. 
 ```
 
 ## Number
@@ -111,7 +111,7 @@ console.log(c);                     // FAILS! c was local to the body of the "do
 ```
 
 Note, this is a more typical function delcaration.
-It's equivalent to the above example in most ways, but there are some subtle differences that aren't worth getting into here.
+It's equivalent to the above function declaration in most ways, but there are some subtle differences that aren't worth getting into here.
 
 ```javascript
 function doMath(a, b) {
