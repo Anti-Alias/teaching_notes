@@ -47,8 +47,9 @@ if(11 > 9) {
     console.log('This line of code runs!');
 }
 
-if(11 > 9) {
-    console.log('This line of code runs!');
+const a = 10;
+if(7 > a) {
+    console.log('This line of code does NOT!');
 }
 
 if(true) {
