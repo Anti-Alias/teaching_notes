@@ -1,5 +1,5 @@
 # HTML
-## Minimal HTML template that inlines its JavaScript.
+## Minimal HTML template that inlines its JavaScript
 
 index.html
 ```html
@@ -43,22 +43,23 @@ Statements are separated by a ; character, or newlines.
 JavaScript runs each statement one at a time from top to bottom.
 
 
-Mutiline script without semicolons
+Statements separated by newlines. No ; necessary.
 ```javascript
 console.log('statement 1')
 let x = 'statement 2'
 window.alert('statement 3')
 ```
 
-Mutiline script WITH semicolons (encouraged)
+Mutiline script using semicolons (encouraged by most, don't ask why)
 ```javascript
 console.log('statement 1');
 let x = 'statement 2';
 window.alert('statement 3');
 ```
 
-One-liner, works the same as above.
+One-liner. Works the same as above.
 Semicolons allow multiple statements on one line, though this is SUPER uncommon.
+Hard to read.
 ```javascript
 console.log('statement 1'); let x = 'statement 2'; window.alert('statement 3');
 ```
@@ -66,7 +67,7 @@ console.log('statement 1'); let x = 'statement 2'; window.alert('statement 3');
 
 ## Logging
 ```javascript
-window.alert('Ur mom!');    // Annoying popup window. Never use on a real site. JS will halt until "OK" is pressed. 
+window.alert('Ur mom!');    // Annoying popup window. Never use on a real site. JS will halt until "OK" is pressed. Everything fucking freezes on the page.
 alert('Ur mom!');           // window is optional. Functionally equivalent.
 console.log('Ur mom!');     // Logs a message in the console. Does not stop the page. Great for figuring out bugs. User does not see this output
 ```
