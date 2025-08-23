@@ -42,7 +42,6 @@ index.html
 Statements are separated by a ; character, or newlines.
 JavaScript runs each statement one at a time from top to bottom.
 
-
 Statements separated by newlines only.
 ```javascript
 console.log('statement 1')
@@ -79,4 +78,30 @@ You can view the output of ```console.log()``` by hitting F12 in chrome and navi
 let num = 3;                // Create a new variable called 'num' and set it to 3. It has a "datatype" of "Number".
 num = 2;                    // Re-assigns an existing variable.
 const message = 'ur mom';   // Create a new variable called 'message' and set it to 'ur mom' . It has a "datatype" of "String". CANNOT BE REASSIGNED. If you try, the code stop and outputs an error in the console. 
+```
+
+## Let VS Const
+Both `let` and `const` are keywords for declaring new variables that don't yet exist.
+`let` will let you reassign the variable, while `const` (constant) will not.
+Attempting to reassign a `const` variable will cause the program to throw an error (crash, most of the time).
+
+Most variables don't change once created, so `const` will typically be your go-to.
+It signals to other programmers that your varible doesn't change once created, letting them make quick assumptions without digging too deep through the code.
+It's a good idea to use `let` ONLY when you need to reassign a variable.
+We'll get into when that's necessary later.
+
+## Redeclaring is Invalid
+```javascript
+let x = 1;
+let x = 2;      // JS will error when it hits this line. x already exists.
+```
+
+```javascript
+const y = 1;
+const y = 2;    // JS will error when it hits this line. y already exists.
+```
+
+```javascript
+let z = 1;
+const z = 2;    // JS will error when it hits this line. z already exists.
 ```
