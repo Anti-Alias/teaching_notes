@@ -18,6 +18,7 @@ Stores numeric value that you can do arithmetic with.
 const a = 0.5;
 const b = 0.6;
 const c = a + b;    // Value is 1.1
+
 ```
 ## Boolean
 Stores either true or false.

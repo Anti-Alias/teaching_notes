@@ -84,7 +84,6 @@ const message = 'ur mom';   // Create a new variable called 'message' and set it
 Both `let` and `const` are keywords for declaring new variables that don't yet exist.
 `let` will let you reassign the variable, while `const` (constant) will not.
 Attempting to reassign a `const` variable will cause the program to throw an error (crash, most of the time).
-
 Most variables don't change once created, so `const` will typically be your go-to.
 It signals to other programmers that your varible doesn't change once created, letting them make quick assumptions without digging too deep through the code.
 It's a good idea to use `let` ONLY when you need to reassign a variable.
